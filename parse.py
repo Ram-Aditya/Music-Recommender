@@ -1,6 +1,7 @@
 import csv
 import pickle
 
+## Give comments in the code 
 def parse_lyrics_file(filename):
 	with open('lyrics.csv') as csv_file:
 		csv_reader = csv.reader(csv_file, delimiter=',')
