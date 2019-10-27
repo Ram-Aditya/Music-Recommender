@@ -1,5 +1,5 @@
 from HelperFunctions import *
-
+#main song pipeline implementation
 def run_pipeline(filename):
     # read in the form of lyric lists
     with open(filename,"r") as lyricfile:
@@ -67,4 +67,5 @@ def run_pipeline(filename):
 
 
 if __name__ == "__main__":
+    #pass the path o fthe songs file
     run_pipeline("../song4.txt")
